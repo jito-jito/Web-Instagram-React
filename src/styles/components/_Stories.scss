@@ -1,0 +1,43 @@
+.Stories {
+    width: 100vw;
+    height: 98px;
+    color: $fontColor-dark;
+    &-container {
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        width: 100%;
+        height: 100%;
+    }
+    &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        margin: 0 10px;
+        font-family: $Font1;
+        figure {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 56px;
+            height: 56px;
+            margin: 0;
+            border-radius: 100%;
+            background: linear-gradient(#FFAD48, #D91A46, #A60F93);
+            img {
+                position: relative;
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                border: 2px solid $color-bright;
+            }
+        }
+        p {
+            width: max-content;
+            margin: 3px 0;
+        }
+    }
+}

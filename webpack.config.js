@@ -15,6 +15,7 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx']
     },
+    mode: 'development',
     module: {
         rules: [
             {
@@ -52,6 +53,13 @@ module.exports = {
                     },
                 ],
             },
+            {
+                test: /\.(png|gif|jpg|svg)/,
+                type: 'asset/resource',
+                generator: {
+                    filename: 'images/[hash][ext][query]'
+                }
+            }
         ]
     },
     plugins: [

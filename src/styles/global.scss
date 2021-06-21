@@ -1,0 +1,21 @@
+$Font1: 'Lato', sans-serif;
+$fontColor-bright: white;
+$fontColor-dark: black;
+$color-bright: white;
+$color-dark: black;
+
+
+@import './mixins/FontSize';
+@import './components/Header.scss';
+@import './components/Stories';
+@import './components/Post';
+@import './components/PostTop';
+@import './components/PostImages';
+@import './components/PostButtons';
+@import './components/PostInfo';
+@import './components/Footer.scss';
+
+body {
+    margin: 0;
+    background-color: $color-bright;
+}

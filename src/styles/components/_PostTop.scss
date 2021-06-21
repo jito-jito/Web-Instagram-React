@@ -1,0 +1,40 @@
+.PostTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 54px;
+    &-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 0.5;
+        margin: 0 auto;
+    }
+    &-data {
+        flex-grow: 0.5;
+        h1 {
+            display: inline-block;
+            margin: 0;
+            font-family: $Font1;
+            font-size: 13px;
+        }
+        img {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin-left: 5px;
+        }
+        h2 {
+            display: block;
+            margin: 0;
+            font-family: $Font1;
+            font-size: 11px;
+        }
+    }
+    &-button {
+        flex-grow: 4;
+        margin-right: 30px;
+        text-align: end;
+    }
+}

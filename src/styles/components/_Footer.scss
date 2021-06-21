@@ -1,0 +1,21 @@
+.Footer {
+    
+    &-container {
+        width: 100vw;
+        height: 55px;
+        opacity: 0;
+    }
+    &-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        height: 55px;
+        background: white;
+        li {
+            list-style: none;
+        }
+    }
+}

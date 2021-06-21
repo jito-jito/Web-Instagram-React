@@ -1,0 +1,16 @@
+.PostButtons {
+    display: flex;
+    justify-content: space-between;
+    &-item {
+        margin: 0 10px;
+    }
+    &-share {
+        flex-grow: .33;
+    }
+    &-pagination {
+        flex-grow: 1;
+    }
+    &-pagination {
+        flex-grow: 1;
+    }
+}
